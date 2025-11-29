@@ -1,0 +1,372 @@
+import * as React from 'react';
+
+type SVGProps = React.SVGProps<SVGSVGElement>;
+
+const Logo = (props: SVGProps) => (
+  <svg width={192} height={192} viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
+    <g clipPath="url(#clip0_95_2730)">
+      <path d="M211.2 -19.2H-19.2V211.2H211.2V-19.2Z" fill="white" />
+      <path d="M211.2 -19.2H-19.2V211.2H211.2V-19.2Z" fill="#1B17FF" />
+      <mask
+        id="mask0_95_2730"
+        style={{
+          maskType: 'luminance',
+        }}
+        maskUnits="userSpaceOnUse"
+        x={47}
+        y={118}
+        width={76}
+        height={25}
+      >
+        <path d="M47.104 118.784H122.88V142.336H47.104V118.784Z" fill="white" />
+      </mask>
+      <g mask="url(#mask0_95_2730)">
+        <mask
+          id="mask1_95_2730"
+          style={{
+            maskType: 'luminance',
+          }}
+          maskUnits="userSpaceOnUse"
+          x={47}
+          y={118}
+          width={76}
+          height={24}
+        >
+          <path d="M122.478 119.024L122.4 141.906L47.4961 141.652L47.5741 118.77L122.478 119.024Z" fill="white" />
+        </mask>
+        <g mask="url(#mask1_95_2730)">
+          <mask
+            id="mask2_95_2730"
+            style={{
+              maskType: 'luminance',
+            }}
+            maskUnits="userSpaceOnUse"
+            x={47}
+            y={118}
+            width={76}
+            height={24}
+          >
+            <path
+              d="M122.44 130.464C122.428 133.498 121.214 136.404 119.06 138.544C116.908 140.682 113.994 141.878 110.96 141.868L58.9502 141.69C55.9142 141.68 53.0082 140.466 50.8702 138.312C48.7322 136.16 47.5362 133.246 47.5462 130.21C47.5582 127.176 48.7722 124.27 50.9262 122.132C53.0782 119.994 55.9922 118.798 59.0262 118.808L111.036 118.984C114.072 118.994 116.978 120.21 119.116 122.364C121.254 124.516 122.45 127.43 122.44 130.464Z"
+              fill="white"
+            />
+          </mask>
+          <g mask="url(#mask2_95_2730)">
+            <mask
+              id="mask3_95_2730"
+              style={{
+                maskType: 'luminance',
+              }}
+              maskUnits="userSpaceOnUse"
+              x={47}
+              y={118}
+              width={76}
+              height={25}
+            >
+              <path d="M122.88 118.784H47.1042V142.336H122.88V118.784Z" fill="white" />
+            </mask>
+            <g mask="url(#mask3_95_2730)">
+              <mask
+                id="mask4_95_2730"
+                style={{
+                  maskType: 'luminance',
+                }}
+                maskUnits="userSpaceOnUse"
+                x={47}
+                y={118}
+                width={76}
+                height={24}
+              >
+                <path d="M47.4321 118.784H122.512V141.926H47.4321V118.784Z" fill="white" />
+              </mask>
+              <g mask="url(#mask4_95_2730)">
+                <mask
+                  id="mask5_95_2730"
+                  style={{
+                    maskType: 'luminance',
+                  }}
+                  maskUnits="userSpaceOnUse"
+                  x={47}
+                  y={118}
+                  width={76}
+                  height={24}
+                >
+                  <path
+                    d="M122.478 119.024L122.4 141.906L47.4961 141.652L47.5741 118.77L122.478 119.024Z"
+                    fill="white"
+                  />
+                </mask>
+                <g mask="url(#mask5_95_2730)">
+                  <mask
+                    id="mask6_95_2730"
+                    style={{
+                      maskType: 'luminance',
+                    }}
+                    maskUnits="userSpaceOnUse"
+                    x={47}
+                    y={118}
+                    width={76}
+                    height={24}
+                  >
+                    <path
+                      d="M122.44 130.464C122.428 133.498 121.214 136.404 119.06 138.544C116.908 140.682 113.994 141.878 110.96 141.868L58.9502 141.69C55.9142 141.68 53.0082 140.466 50.8702 138.312C48.7322 136.16 47.5362 133.246 47.5462 130.21C47.5582 127.176 48.7722 124.27 50.9262 122.132C53.0782 119.994 55.9922 118.798 59.0262 118.808L111.036 118.984C114.072 118.994 116.978 120.21 119.116 122.364C121.254 124.516 122.45 127.43 122.44 130.464Z"
+                      fill="white"
+                    />
+                  </mask>
+                  <g mask="url(#mask6_95_2730)">
+                    <path
+                      d="M122.478 119.024L122.4 141.906L47.4961 141.652L47.5741 118.77L122.478 119.024Z"
+                      fill="#F4F4F4"
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <mask
+        id="mask7_95_2730"
+        style={{
+          maskType: 'luminance',
+        }}
+        maskUnits="userSpaceOnUse"
+        x={47}
+        y={49}
+        width={76}
+        height={25}
+      >
+        <path d="M47.104 49.664H122.88V73.216H47.104V49.664Z" fill="white" />
+      </mask>
+      <g mask="url(#mask7_95_2730)">
+        <mask
+          id="mask8_95_2730"
+          style={{
+            maskType: 'luminance',
+          }}
+          maskUnits="userSpaceOnUse"
+          x={47}
+          y={50}
+          width={76}
+          height={24}
+        >
+          <path d="M122.478 50.352L122.4 73.234L47.4961 72.98L47.5741 50.098L122.478 50.352Z" fill="white" />
+        </mask>
+        <g mask="url(#mask8_95_2730)">
+          <mask
+            id="mask9_95_2730"
+            style={{
+              maskType: 'luminance',
+            }}
+            maskUnits="userSpaceOnUse"
+            x={47}
+            y={50}
+            width={76}
+            height={24}
+          >
+            <path
+              d="M122.44 61.794C122.428 64.828 121.214 67.734 119.06 69.872C116.908 72.01 113.994 73.206 110.96 73.196L58.9502 73.02C55.9142 73.01 53.0082 71.794 50.8702 69.64C48.7322 67.488 47.5362 64.574 47.5462 61.54C47.5582 58.506 48.7722 55.6 50.9262 53.46C53.0782 51.322 55.9922 50.126 59.0262 50.136L111.036 50.314C114.072 50.324 116.978 51.538 119.116 53.692C121.254 55.844 122.45 58.758 122.44 61.794Z"
+              fill="white"
+            />
+          </mask>
+          <g mask="url(#mask9_95_2730)">
+            <mask
+              id="mask10_95_2730"
+              style={{
+                maskType: 'luminance',
+              }}
+              maskUnits="userSpaceOnUse"
+              x={47}
+              y={49}
+              width={76}
+              height={25}
+            >
+              <path d="M122.88 49.6641H47.1042V73.2161H122.88V49.6641Z" fill="white" />
+            </mask>
+            <g mask="url(#mask10_95_2730)">
+              <mask
+                id="mask11_95_2730"
+                style={{
+                  maskType: 'luminance',
+                }}
+                maskUnits="userSpaceOnUse"
+                x={47}
+                y={50}
+                width={76}
+                height={24}
+              >
+                <path d="M47.4321 50.0121H122.512V73.2161H47.4321V50.0121Z" fill="white" />
+              </mask>
+              <g mask="url(#mask11_95_2730)">
+                <mask
+                  id="mask12_95_2730"
+                  style={{
+                    maskType: 'luminance',
+                  }}
+                  maskUnits="userSpaceOnUse"
+                  x={47}
+                  y={50}
+                  width={76}
+                  height={24}
+                >
+                  <path
+                    d="M122.478 50.3521L122.4 73.2341L47.4961 72.9801L47.5741 50.0981L122.478 50.3521Z"
+                    fill="white"
+                  />
+                </mask>
+                <g mask="url(#mask12_95_2730)">
+                  <mask
+                    id="mask13_95_2730"
+                    style={{
+                      maskType: 'luminance',
+                    }}
+                    maskUnits="userSpaceOnUse"
+                    x={47}
+                    y={50}
+                    width={76}
+                    height={24}
+                  >
+                    <path
+                      d="M122.44 61.7941C122.428 64.8281 121.214 67.7341 119.06 69.8721C116.908 72.0101 113.994 73.2061 110.96 73.1961L58.9502 73.0201C55.9142 73.0101 53.0082 71.7941 50.8702 69.6401C48.7322 67.4881 47.5362 64.5741 47.5462 61.5401C47.5582 58.5061 48.7722 55.6001 50.9262 53.4601C53.0782 51.3221 55.9922 50.1261 59.0262 50.1361L111.036 50.3141C114.072 50.3241 116.978 51.5381 119.116 53.6921C121.254 55.8441 122.45 58.7581 122.44 61.7941Z"
+                      fill="white"
+                    />
+                  </mask>
+                  <g mask="url(#mask13_95_2730)">
+                    <path
+                      d="M122.478 50.3521L122.4 73.2341L47.4961 72.9801L47.5741 50.0981L122.478 50.3521Z"
+                      fill="#F4F4F4"
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <mask
+        id="mask14_95_2730"
+        style={{
+          maskType: 'luminance',
+        }}
+        maskUnits="userSpaceOnUse"
+        x={47}
+        y={83}
+        width={98}
+        height={26}
+      >
+        <path d="M47.104 83.968H144.896V108.032H47.104V83.968Z" fill="white" />
+      </mask>
+      <g mask="url(#mask14_95_2730)">
+        <mask
+          id="mask15_95_2730"
+          style={{
+            maskType: 'luminance',
+          }}
+          maskUnits="userSpaceOnUse"
+          x={47}
+          y={84}
+          width={98}
+          height={24}
+        >
+          <path d="M144.508 84.724L144.43 107.608L47.448 107.278L47.524 84.396L144.508 84.724Z" fill="white" />
+        </mask>
+        <g mask="url(#mask15_95_2730)">
+          <mask
+            id="mask16_95_2730"
+            style={{
+              maskType: 'luminance',
+            }}
+            maskUnits="userSpaceOnUse"
+            x={47}
+            y={84}
+            width={98}
+            height={24}
+          >
+            <path
+              d="M144.468 96.166C144.458 99.2 143.242 102.106 141.09 104.244C138.938 106.384 136.022 107.578 132.988 107.568L58.9279 107.318C55.8939 107.308 52.9879 106.092 50.8499 103.94C48.7119 101.786 47.5159 98.872 47.5259 95.838C47.5359 92.804 48.7519 89.898 50.9039 87.758C53.0579 85.62 55.9719 84.424 59.0059 84.436L133.066 84.686C136.1 84.696 139.006 85.912 141.144 88.064C143.284 90.218 144.478 93.132 144.468 96.166Z"
+              fill="white"
+            />
+          </mask>
+          <g mask="url(#mask16_95_2730)">
+            <mask
+              id="mask17_95_2730"
+              style={{
+                maskType: 'luminance',
+              }}
+              maskUnits="userSpaceOnUse"
+              x={47}
+              y={83}
+              width={98}
+              height={26}
+            >
+              <path d="M144.896 83.968H47.104V108.032H144.896V83.968Z" fill="white" />
+            </mask>
+            <g mask="url(#mask17_95_2730)">
+              <mask
+                id="mask18_95_2730"
+                style={{
+                  maskType: 'luminance',
+                }}
+                maskUnits="userSpaceOnUse"
+                x={47}
+                y={84}
+                width={98}
+                height={24}
+              >
+                <path d="M47.4319 84.418H144.506V107.642H47.4319V84.418Z" fill="white" />
+              </mask>
+              <g mask="url(#mask18_95_2730)">
+                <mask
+                  id="mask19_95_2730"
+                  style={{
+                    maskType: 'luminance',
+                  }}
+                  maskUnits="userSpaceOnUse"
+                  x={47}
+                  y={84}
+                  width={98}
+                  height={24}
+                >
+                  <path
+                    d="M144.508 84.7243L144.43 107.608L47.4478 107.278L47.5238 84.3963L144.508 84.7243Z"
+                    fill="white"
+                  />
+                </mask>
+                <g mask="url(#mask19_95_2730)">
+                  <mask
+                    id="mask20_95_2730"
+                    style={{
+                      maskType: 'luminance',
+                    }}
+                    maskUnits="userSpaceOnUse"
+                    x={47}
+                    y={84}
+                    width={98}
+                    height={24}
+                  >
+                    <path
+                      d="M144.468 96.1661C144.458 99.2001 143.242 102.106 141.09 104.244C138.938 106.384 136.022 107.578 132.988 107.568L58.9279 107.318C55.8939 107.308 52.9879 106.092 50.8499 103.94C48.7119 101.786 47.5159 98.8721 47.5259 95.8381C47.5359 92.8041 48.7519 89.8981 50.9039 87.7581C53.0579 85.6201 55.9719 84.4241 59.0059 84.4361L133.066 84.6861C136.1 84.6961 139.006 85.9121 141.144 88.0641C143.284 90.2181 144.478 93.1321 144.468 96.1661Z"
+                      fill="white"
+                    />
+                  </mask>
+                  <g mask="url(#mask20_95_2730)">
+                    <path
+                      d="M144.508 84.7241L144.43 107.608L47.448 107.278L47.524 84.3961L144.508 84.7241Z"
+                      fill="#F4F4F4"
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <defs>
+      <clipPath id="clip0_95_2730">
+        <rect width={192} height={192} rx={32} fill="white" />
+      </clipPath>
+    </defs>
+  </svg>
+);
+export default Logo;
