@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="flex items-center gap-6">
             {/* X (Twitter) */}
             <Link
-              href="https://x.com/dpay"
+              href="https://x.com/Info_DPAY"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#1a1a1a] hover:text-primary transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
 
             {/* Telegram */}
             <Link
-              href="https://t.me/dpay"
+              href="https://t.me/DpaySupportTeam"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#1a1a1a] hover:text-primary transition-colors"
@@ -51,7 +51,20 @@ const Footer = () => {
 
         {/* Divider */}
         <div className="border-t border-[#E5E7EB] mt-8 pt-8">
-          <p className="text-center text-[#6B7280] text-sm">© 2025 DPAY. All rights reserved.</p>
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-[#6B7280] text-sm">© 2025 DPAY. All rights reserved.</p>
+
+            {/* Powered by Daslabs */}
+            <Link
+              href="https://daslabs.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-[#6B7280] hover:text-[#1a1a1a] transition-colors"
+            >
+              <span className="text-sm">Powered by</span>
+              <Image src="/daslab-logo.svg" alt="Daslabs" width={80} height={16} className="h-4 w-auto" />
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

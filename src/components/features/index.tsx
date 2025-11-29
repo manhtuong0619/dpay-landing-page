@@ -28,15 +28,15 @@ const features = [
 
 const FeatureSection = () => {
   return (
-    <section id="features" className="w-full py-24 px-6 md:px-20">
+    <section id="features" className="w-full py-24 px-4 md:px-20">
       <div className="max-w-[1440px] mx-auto">
         {/* Header */}
         <div className="text-center flex flex-col items-center mb-16">
-          <span className="block mb-[32px] w-fit px-4 py-2 text-white text-sm font-medium bg-[linear-gradient(153deg,#1712FF_0%,#0142FE_83.33%)] shadow-[0_1px_4px_0_rgba(128,152,168,0.12)] rounded-[99px]">
+          <span className="block px-3 sm:px-4 py-1.5 sm:py-2 text-white text-xs sm:text-sm font-medium bg-[linear-gradient(153deg,#1712FF_0%,#0142FE_83.33%)] shadow-[0_1px_4px_0_rgba(128,152,168,0.12)] rounded-[99px] mb-4 sm:mb-6 md:mb-8 w-fit">
             Features
           </span>
-          <h2 className="text-4xl md:text-5xl font-medium text-[#0D0D0D] mb-6">Why choose DPAY?</h2>
-          <p className="text-[#0D0D0D] text-base md:text-lg">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-medium text-[#0D0D0D] mb-6">Why choose DPAY?</h2>
+          <p className="text-[#0D0D0D] text-sm md:text-base">
             Powerful features designed for real-world Web3 payments and on-chain loyalty.
           </p>
         </div>
