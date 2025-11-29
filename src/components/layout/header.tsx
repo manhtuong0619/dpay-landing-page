@@ -34,11 +34,8 @@ const Header = () => {
           className={`z-10 h-[48px] md:h-[56px] w-full px-4 lg:px-6 flex items-center justify-between gap-6  ${
             isMobileMenuOpen
               ? 'bg-white shadow-lg border-b-[rgba(0,0,0,0.10)] border-b border-solid rounded-[4px_4px_0_0]'
-              : 'bg-[rgba(255,255,255,0.06)] backdrop-blur-md border-transparent rounded'
+              : 'bg-white md:bg-[rgba(255,255,255,0.06)] backdrop-blur-[40px] md:backdrop-blur-md border-transparent rounded'
           }`}
-          animate={{
-            backgroundColor: isMobileMenuOpen ? '#ffffff' : 'rgba(255,255,255,0.06)',
-          }}
           transition={{ duration: 0.3 }}
         >
           <div className="flex items-center gap-2">
@@ -48,7 +45,7 @@ const Header = () => {
               alt="DPay Logo Text"
               width={176}
               height={43}
-              className={`${isMobileMenuOpen ? 'text-black' : 'text-white'} h-[14px] w-auto object-cover`}
+              className={`${isMobileMenuOpen ? 'text-black' : 'text-white'} h-[18px] translate-y-[2px] w-auto object-cover`}
             />
           </div>
 
@@ -68,43 +65,48 @@ const Header = () => {
             <Button className="lg:flex hidden">Launch App</Button>
           </Link>
 
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden flex items-center cursor-pointer transition-colors"
-            aria-label="Toggle menu"
-          >
-            <AnimatePresence mode="wait">
-              {isMobileMenuOpen ? (
-                <motion.svg
-                  key="close"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  className="text-black"
-                  initial={{ rotate: -90, opacity: 0 }}
-                  animate={{ rotate: 0, opacity: 1 }}
-                  exit={{ rotate: 90, opacity: 0 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <line x1="18" y1="6" x2="6" y2="18" />
-                  <line x1="6" y1="6" x2="18" y2="18" />
-                </motion.svg>
-              ) : (
-                <motion.div
-                  key="menu"
-                  initial={{ rotate: 90, opacity: 0 }}
-                  animate={{ rotate: 0, opacity: 1 }}
-                  exit={{ rotate: -90, opacity: 0 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <MenuIcon />
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </button>
+          <div className="flex items-center gap-2 lg:hidden ">
+            <Link href={DAPP_URL} target="_blank" rel="noopener noreferrer">
+              <Button>Launch App</Button>
+            </Link>
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="lg:hidden flex items-center cursor-pointer transition-colors"
+              aria-label="Toggle menu"
+            >
+              <AnimatePresence mode="wait">
+                {isMobileMenuOpen ? (
+                  <motion.svg
+                    key="close"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    className="text-black"
+                    initial={{ rotate: -90, opacity: 0 }}
+                    animate={{ rotate: 0, opacity: 1 }}
+                    exit={{ rotate: 90, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </motion.svg>
+                ) : (
+                  <motion.div
+                    key="menu"
+                    initial={{ rotate: 90, opacity: 0 }}
+                    animate={{ rotate: 0, opacity: 1 }}
+                    exit={{ rotate: -90, opacity: 0 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <MenuIcon className="text-black" />
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </button>
+          </div>
         </motion.div>
 
         {/* Mobile Menu Dropdown */}
@@ -142,26 +144,6 @@ const Header = () => {
                     </motion.div>
                   ))}
                 </nav>
-
-                {/* Launch App Button */}
-                <motion.div
-                  initial={{ opacity: 0, y: -10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{
-                    duration: 0.3,
-                    delay: navItems.length * 0.05,
-                    ease: 'easeOut',
-                  }}
-                >
-                  <Link href={DAPP_URL} target="_blank" rel="noopener noreferrer">
-                    <Button
-                      className="w-full justify-center bg-[#1B1B1D] text-white hover:bg-primary"
-                      onClick={handleNavClick}
-                    >
-                      Launch App
-                    </Button>
-                  </Link>
-                </motion.div>
               </div>
             </motion.div>
           )}

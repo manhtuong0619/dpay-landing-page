@@ -17,7 +17,7 @@ const Footer = () => {
               alt="DPay Logo Text"
               width={176}
               height={43}
-              className={`h-[14px] w-auto object-cover`}
+              className={`h-[18px] translate-y-[2px] w-auto object-cover`}
             />
           </div>
 
